@@ -1,0 +1,47 @@
+.pdf-list{
+    width: 80%;
+}
+
+.card{
+    width: 18rem;
+}
+
+.nd {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 765px) and (min-width: 320px) {
+
+    #search-books{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #search-img{
+        width: 200px;
+        margin: auto;
+    }
+
+    #store-books{
+        display: flex;
+        flex-direction: column;
+    }    
+
+    #store-img{
+        width: 200px;
+        margin: auto;
+    }
+
+    #sidebar{
+        display: none;
+    }
+
+}
